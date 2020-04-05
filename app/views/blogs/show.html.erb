@@ -136,5 +136,10 @@
 </section>
   </div>
 </main>
+<p class="single-text">
+    <%= @blog.body %>    
+</p>
+<!-- 編集部分 -->
+<%= link_to "編集", edit_blog_path(@blog) %>
 <footer>
 <p class="footer-text">© All rights recerved by Infratop.Inc.</p>
